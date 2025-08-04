@@ -1,0 +1,21 @@
+name: AI-Video-Reader-ASR
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - pandas
+  - tqdm
+  - pip:
+      - soundfile
+      - faster-whisper
+      - yt-dlp
+      - openai-whisper
+      - librosa
+      - jiwer
+      - dataclasses-json
+      - accelerate
+      - sentencepiece
+      - protobuf

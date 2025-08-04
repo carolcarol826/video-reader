@@ -1,0 +1,11 @@
+flask
+celery
+redis
+tqdm
+ffmpeg-python
+yt-dlp
+faster-whisper
+soundfile
+torch
+pandas
+# plus anything else needed for your script
